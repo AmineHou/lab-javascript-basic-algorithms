@@ -29,3 +29,16 @@ for (let i = 0; i < hacker1.length; i++) {
     // === hacker1String += hacker1Loop.toUpperCase() + " "
 }
 console.log("i get", hacker1String);
+
+
+let hacker2String = ""
+
+for (let j = (hacker2.length - 1); j >= 0; j--) {
+    let hacker2Loop = hacker2.charAt(j)
+
+    hacker2String = hacker2String + hacker2Loop + " "
+}
+console.log("the reverse navigator's name:" , hacker2String)
+
+
+
